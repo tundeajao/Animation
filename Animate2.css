@@ -1,0 +1,44 @@
+.bond{
+	/* height: 300px; */
+}
+
+#box{
+	margin: 10px;
+	border: 5px solid black;
+	width: 200px;
+	height: 200px;
+	background-color: rgb(255, 0, 0);
+	position: relative;
+	float: left;
+	top: 100px;
+}
+
+#smaller1, #smaller2 {
+	margin: 10px;
+	border: 5px solid black;
+	width: 160px;
+	height: 50px;
+	position: absolute;
+	font-style: normal;
+	font-size: 40px;
+	font-weight:bold;
+	text-align: center;
+}
+
+#smaller1{
+	top: 0px;
+	left: 0px;
+	background-color: yellow;
+}
+
+#smaller2{
+	top: 70px;
+	left: 0px;
+	background-color: green;
+}
+
+.highlighted
+{
+	background-color: white;
+}
+
