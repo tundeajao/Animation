@@ -1,3 +1,6 @@
+//This was written by TA
+//This is to test the functionality of the javascript.
+
 $(document).ready(function() {
 	$('#vacations').on('mouseenter', '#box', function() {
 		$(this).css('background-color', '#252b30');
